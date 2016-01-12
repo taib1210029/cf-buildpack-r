@@ -74,8 +74,7 @@ R_VERSION="3.1.0"
 
 S3_BUCKET="heroku-buildpack-r"
 #R_BINARIES="http://${S3_BUCKET}.s3.amazonaws.com/R-${R_VERSION}-binaries-${BUILD_PACK_VERSION}.tar.gz"
-#R_BINARIES="https://s3.amazonaws.com/r-buildpack/R-3.1.0-binaries-20140629-2201.tar.gz"
-R_BINARIES="https://cran.r-project.org/src/base/R-3/R-3.1.0.tar.gz"
+R_BINARIES="https://s3.amazonaws.com/r-buildpack/R-3.1.0-binaries-20140629-2201.tar.gz"
 
 VENDOR_DIR="$BUILD_DIR/vendor"
 R_HOME="$VENDOR_DIR/R"
